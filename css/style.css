@@ -2,6 +2,7 @@
     text-align: center;
     width: 80%;
     margin: 0 auto;
+    padding-bottom: 15px;
 }
 
 #bread {
@@ -42,14 +43,16 @@ a:hover {
     text-align: left;
 }
 
-.morandi-blue {
-    background-color: #6B8BA4;
+#themeMenuButton.small-theme-btn {
+    background-color: rgba(255, 255, 255, 0.5);
     border: none;
-    color: white;
-    border-radius: 12px;
-    transition: background 0.3s;
+    padding: 8px 12px;
+    font-size: 16px;
+    border-radius: 8px;
 }
 
-.morandi-blue:hover {
-    background-color: #5A7690;
+#themeMenuButton.small-theme-btn:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    /* 悬停时不透明 */
+    transform: scale(1.05);
 }
